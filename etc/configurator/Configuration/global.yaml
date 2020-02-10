@@ -1,0 +1,196 @@
+global:
+  # PagSeguro
+  -
+    path: payment/rm_pagseguro/merchant_email
+    value: "giovanni.santos@webjump.com.br"
+  -
+    path: payment/rm_pagseguro/token
+    value: "6d62f279-f3b2-4136-b5d5-ac182b34cbf2808a1e614a589ef29c37a6fe167eb1a08cee-5705-43aa-aa91-df78c22f5de3"
+  -
+    path: payment/rm_pagseguro/key
+    value: "PUB85CDC809CF3347F4BA6019CD00D46012"
+  -
+    path: payment/rm_pagseguro/debug
+    value: 1
+  -
+    path: payment/rm_pagseguro/send_invoice_email
+    value: 1
+  -
+    path: payment/rm_pagseguro/address_street_attribute
+    value: "street_1"
+  -
+    path: payment/rm_pagseguro/address_number_attribute
+    value: "street_2"
+  -
+    path: payment/rm_pagseguro/address_complement_attribute
+    value: "street_3"
+  -
+    path: payment/rm_pagseguro/address_neighborhood_attribute
+    value: "street_4"
+  -
+    path: payment/rm_pagseguro_cc/active
+    value: 1
+  -
+    path: payment/rm_pagseguro_cc/title
+    value: "Cartão de Crédito via PagSeguro"
+  -
+    path: payment/rm_pagseguro_cc/order_status
+    value: "pending"
+  -
+    path: payment/rm_pagseguro_cc/flag
+    value: "68x30"
+  -
+    path: payment/rm_pagseguro_cc/info_brl
+    value: 1
+  -
+    path: payment/rm_pagseguro_cc/group_restriction
+    value: 0
+  -
+    path: payment/rm_pagseguro_cc/show_total
+    value: 0
+  -
+    path: payment/rm_pagseguro_cc/force_installments_selection
+    value: 0
+  -
+    path: payment/rm_pagseguro_tef/active
+    value: 1
+  -
+    path: payment/rm_pagseguro_tef/title
+    value: "PagSeguro - TEF"
+  -
+    path: payment/rm_pagseguro_tef/order_status
+    value: "holded"
+  -
+    path: payment/rm_pagseguro_tef/sort_order
+    value: 2
+  -
+    path: payment/rm_pagseguro_boleto/active
+    value: 1
+  -
+    path: payment/rm_pagseguro_boleto/title
+    value: "Boleto - via PagSeguro"
+  -
+    path: payment/rm_pagseguro_boleto/order_status
+    value: "holded"
+  -
+    path: payment/rm_pagseguro_boleto/sort_order
+    value: 2
+  -
+    path: customer/address/street_lines
+    value: 4
+  #Correios
+  -
+    path: carriers/imaginationmedia_correios/active
+    value: 1
+  -
+    path: carriers/imaginationmedia_correios/name
+    value: "Correios - PAC"
+  -
+    path: carriers/imaginationmedia_correios/posting_methods
+    value: "40010,41106"
+  -
+    path: carriers/imaginationmedia_correios/posting_freemethod
+    value: 41106
+  -
+    path: carriers/imaginationmedia_correios/weight_type
+    value: "kg"
+  -
+    path: carriers/imaginationmedia_correios/owner_hands
+    value: 1
+  -
+    path: carriers/imaginationmedia_correios/received_warning
+    value: 1
+  -
+    path: carriers/imaginationmedia_correios/declared_value
+    value: 0
+  -
+    path: carriers/imaginationmedia_correios/validate_dimensions
+    value: 1
+  -
+    path: carriers/imaginationmedia_correios/default_height
+    value: 2
+  -
+    path: carriers/imaginationmedia_correios/default_width
+    value: 16
+  -
+    path: carriers/imaginationmedia_correios/default_depth
+    value: 11
+  -
+    path: carriers/imaginationmedia_correios/handling_fee
+    value: 1
+  -
+    path: carriers/imaginationmedia_correios/show_deliverydays
+    value: 1
+  -
+    path: carriers/imaginationmedia_correios/add_deliverydays
+    value: 3
+  -
+    path: carriers/imaginationmedia_correios/deliverydays_message
+    value: "%s em até %s dias úteis"
+  -
+    path: carriers/imaginationmedia_correios/webservice_url
+    value: "http://ws.correios.com.br/calculador/CalcPrecoPrazo.aspx?StrRetorno=xml"
+  -
+    path: carriers/imaginationmedia_correios/max_weight
+    value: 40
+  -
+    path: carriers/imaginationmedia_correios/enabled_log
+    value: 1
+  -
+    path: carriers/imaginationmedia_correios/maxdays_update
+    value: 15
+  -
+    path: carriers/imaginationmedia_correios/function_mode
+    value: 2
+  #Default
+  -
+    path: shipping/origin/country_id
+    value: BR
+  -
+    path: shipping/origin/region_id
+    value: 508
+  -
+    path: shipping/origin/postcode
+    value: "04543-000"
+  -
+    path: shipping/origin/city
+    value: "São Paulo"
+  -
+    path: shipping/origin/street_line1
+    value: "Avenida Jucelino Kubitschek, 50"
+  -
+    path: general/country/default
+    value: BR
+  -
+    path: general/country/allow
+    value: BR
+  -
+    path: general/country/destinations
+    value: BR
+  -
+    path: general/region/state_required
+    value: BR
+  -
+    path: general/locale/weight_unit
+    value: "kgs"
+  -
+    path: general/store_information/name
+    value: "Jumpers"
+  -
+    path: general/store_information/country_id
+    value: BR
+  -
+    path: general/store_information/region_id
+    value: 508
+  -
+    path: general_store_information_postcode
+    value: "04543-000"
+  -
+    path: general/store_information/city
+    value: "São Paulo"
+  -
+    path: carriers/flatrate/active
+    value: 0
+  -
+    path: payment/checkmo/title
+    value: "Depósito"

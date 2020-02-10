@@ -1,0 +1,5 @@
+config:
+  enabled: 1
+  method: code
+  sources:
+    - app/etc/configurator/Configuration/global.yaml
